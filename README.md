@@ -1,3 +1,5 @@
+> **TermuxUltra:Widget** is a fork of [termux-widget](https://github.com/termux/termux-widget) for [TermuxUltra](https://github.com/LinuxKernel44/TermuxUltra). It only changes the app name and signs the release with the TermuxUltra key, which is required because the plugin shares the `com.termux` user id with the main app. The package name is unchanged, so it replaces the upstream plugin. Release builds read their signing credentials from `~/.android-signing/keystore.properties`.
+
 # Termux:Widget
 
 [![Build status](https://github.com/termux/termux-widget/workflows/Build/badge.svg)](https://github.com/termux/termux-widget/actions)
